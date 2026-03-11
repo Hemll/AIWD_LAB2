@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Event Registration</title>
+
+<!-- External CSS Linking -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Online Event Registration</h1>
+
+<div class="media-section">
+
+<img src="event-banner.jpg" alt="Event Banner" width="400">
+
+<video width="400" controls>
+<source src="event-video.mp4" type="video/mp4">
+</video>
+
+<audio controls>
+<source src="event-audio.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<h2>Register for the Event</h2>
+
+<form>
+
+Name:
+<input type="text" name="name"><br><br>
+
+Email:
+<input type="email" name="email"><br><br>
+
+Event Date:
+<input type="date" name="date"><br><br>
+
+Gender:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+
+Event Type:
+<select>
+<option>Workshop</option>
+<option>Seminar</option>
+<option>Conference</option>
+<option>Webinar</option>
+</select>
+
+<br><br>
+
+Comments:
+<br>
+<textarea rows="4" cols="40"></textarea>
+
+<br><br>
+
+Upload ID:
+<input type="file">
+
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</div>
+
+</body>
+</html>
